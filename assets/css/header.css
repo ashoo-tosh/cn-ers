@@ -1,0 +1,89 @@
+
+  .navBar{
+    background-color: rgba(150, 175, 230, 0.868);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.nameOfApp a{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.nameOfUser{
+    font-size: 30px;
+
+}
+
+.logOut a{
+    font-size: 30px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.87rem;
+}
+
+.logOut small{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 2px;
+    background-color: rgba(23, 209, 178, 0.868);
+    
+}
+
+.noUser ul{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.noUser li{
+    list-style: none;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.noUser li a{
+    text-decoration: none;
+    color: black;
+}
+.logOut small{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+.navBar {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+.nameOfApp {
+margin-top: 20px;
+}
+.nameOfUser {
+margin-top: 20px;
+}
+.logOut {
+margin-top: 20px;
+}
+.noUser {
+margin-top: 20px;
+}
+.noUser ul {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.noUser li {
+margin-top: 10px;
+}
+}
