@@ -120,4 +120,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Ashootosh](https://github.com/ashoo-tosh)
 ```
 
-Replace the placeholder links and information with your project-specific details. This README provides an overview of your Express.js application, instructions for installation and usage, information about folder structure and technologies used, details on contributing and licensing, and an author section.
